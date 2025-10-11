@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 // package main
+=======
+ package main
+import "fmt"
+>>>>>>> 615a439 (Update main.go)
 
+func main(){
+ fmt.Println("waka tracker")
+}
 // import (
 //     "encoding/json"
 //     "fmt"
