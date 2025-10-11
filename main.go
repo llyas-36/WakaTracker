@@ -10,7 +10,11 @@ import (
 
 func handle(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
+<<<<<<< HEAD
 	username := ""
+=======
+
+>>>>>>> ea598b5 (Remove WakaTime API key)
 	password := ""
 	credentials := fmt.Sprintf("%s:%s", username, password)
 	//	encodedCredentials := base64.StdEncoding.EncodeToString([]byte(credentials))

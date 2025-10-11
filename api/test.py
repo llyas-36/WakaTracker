@@ -2,8 +2,13 @@ import requests
 import base64
 
 def day7():
+<<<<<<< HEAD
     url = ""
     api_key = ""
+=======
+    url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
+
+>>>>>>> ea598b5 (Remove WakaTime API key)
 
     # Encode Basic Auth
     auth = base64.b64encode(f"{api_key}:".encode()).decode()
