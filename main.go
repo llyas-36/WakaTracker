@@ -25,11 +25,15 @@ import "fmt"
 
 //     url := "https://wakatime.com/api/v1/users/current/stats/last_7_days"
 
+<<<<<<< HEAD
 //     req, err := http.NewRequest("GET", url, nil)
 //     if err != nil {
 //         log.Fatal(err)
 //     }
 //     req.Header.Set("Authorization", "Basic "+credentials)
+=======
+// 	url := ""
+>>>>>>> 03ebf3b (handle internal)
 
 //     client := http.Client{}
 //     res, err := client.Do(req)
@@ -102,9 +106,21 @@ import "fmt"
 // }
 
 // func dailyAverage(w http.ResponseWriter, r *http.Request) {
+<<<<<<< HEAD
 //     w.Header().Set("Content-Type", "application/json")
 //     url := "https://wakatime.com/api/v1/users/current/stats/last_7_days"
 //     auth := fmt.Sprintf("%s:%s", "", "")
+=======
+// 	w.Header().Set("Content-Type", "application/json")
+<<<<<<< HEAD
+// 	url := "https://wakatime.com/api/v1/users/current/stats/last_7_days"
+// 	auth := fmt.Sprintf("%s:%s", ", "")
+>>>>>>> 7c051b8 (update main.go)
+=======
+// 	url := ""
+// 	
+>>>>>>> e4f6d42 (modify internal)
+>>>>>>> 03ebf3b (handle internal)
 
 //     req, err := http.NewRequest("GET", url, nil)
 //     if err != nil {

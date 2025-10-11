@@ -3,10 +3,14 @@ import base64
 
 def day7():
 <<<<<<< HEAD
+<<<<<<< HEAD
     url = ""
     api_key = ""
 =======
     url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
+=======
+    url = ""
+>>>>>>> e4f6d42 (modify internal)
 
 >>>>>>> ea598b5 (Remove WakaTime API key)
 

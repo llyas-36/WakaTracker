@@ -2,10 +2,14 @@ import requests
 import base64
 from typing import List, Dict, Any
 def weekly_summary(api_key):
+<<<<<<< HEAD
     url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
 <<<<<<< HEAD
    # api_key = ""
 =======
+=======
+    url = ""
+>>>>>>> e4f6d42 (modify internal)
 
 >>>>>>> ea598b5 (Remove WakaTime API key)
 
@@ -65,10 +69,14 @@ def weekly_summary(api_key):
 
 
 def some_stats(api_key):
+<<<<<<< HEAD
     url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
 <<<<<<< HEAD
     #api_key = ""
 =======
+=======
+    url = ""
+>>>>>>> e4f6d42 (modify internal)
 
 >>>>>>> ea598b5 (Remove WakaTime API key)
 
