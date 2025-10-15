@@ -1,6 +1,6 @@
 import sqlite3
 import datetime
-
+#
 DB_FILE = "waka_users.db"
 
 def init_db():
